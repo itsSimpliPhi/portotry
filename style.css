@@ -1,0 +1,41 @@
+:root {
+  --navBackground: #292d33;
+  --navText: #bababa;
+  --textMain: #f86449;
+  --textStandard: #111111;
+  --textStandard2: #ffffff;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--navBackground);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar .navitem a {
+  float: left;
+  display: block;
+  color: var(--navText);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar .navitem a:hover {
+  color: var(--textMain);
+}
+
+.mainContent {
+  margin-left: 20px;
+  margin-top: 80px;
+}
